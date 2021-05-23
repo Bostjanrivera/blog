@@ -19,7 +19,7 @@ main {
 }
 .header-left--name {
   font-size: 2.1rem;
-  background: linear-gradient(90deg, rgba(158,0,255,1) 0%, rgba(0,255,255,1) 20%);
+  background: linear-gradient(90deg, rgba(158,0,255,1) 0%, rgba(0,255,255,1) 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: white;
@@ -44,12 +44,32 @@ nav {
 }
 .nav li {
   display: inline-block;
-  // margin-left: 15px;
 }
-
 .nav li a {
+  position: relative;
   font-size: 1.4rem;
   text-decoration: none;
   color: white;
   font-weight: 100;
+  transition: opacity .35s ease-in-out;
+  padding: 10px;
+  opacity: 0.8;
+}
+.nav li a:hover {
+  opacity: 1;
+}
+.nav li a:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  bottom: 8px;
+  left: 11px;
+  height: 1px;
+  background: #fff;
+  opacity: .25;
+  transition: all .35s ease-in-out;
+}
+.nav li a:hover:before {
+  right: 10px;
+  opacity: .7;
 }

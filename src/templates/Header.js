@@ -4,7 +4,7 @@ const Header = () => {
     const view = `
         <div class="header">
             <div class="header-left">
-                <p class="header-left--name">Sebas Rivera</p>
+                <a href="/" class="header-left--name">Sebas Rivera</a>
                 <p class="header-left--role">Frontend Developer</p>
             </div>
             <nav>

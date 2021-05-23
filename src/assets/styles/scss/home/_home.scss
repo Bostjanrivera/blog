@@ -1,11 +1,29 @@
 .main-home {
+  position: relative;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-gap: 20px;
   place-items: center;
   width: 100%;
   height: 90vh;
+  animation-name: home-entry;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 }
+@keyframes home-entry {
+  0% {
+    top: -60vh;
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
 .home-text h1 {
   text-align: center;
   font-size: 3.5rem;
