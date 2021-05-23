@@ -5,7 +5,6 @@ const Header = () => {
         <div class="header">
             <div class="header-left">
                 <a href="/" class="header-left--name">Sebas Rivera</a>
-                <p class="header-left--role">Frontend Developer</p>
             </div>
             <nav>
                 <ul class="nav">
