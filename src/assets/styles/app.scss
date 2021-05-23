@@ -1,3 +1,8 @@
 @import './resets.scss';
 @import './scss/header/header.scss';
-@import './scss/home/home.scss'
+@import './scss/home/home.scss';
+
+@media (min-width: 1024px) {
+  @import './scss/header/header-desktop';
+  @import './scss/home/home-desktop';
+}
