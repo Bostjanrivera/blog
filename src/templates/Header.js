@@ -8,10 +8,10 @@ const Header = () => {
             </div>
             <nav>
                 <ul class="nav">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Biography</a></li>
-                    <li><a href="">Articles</a></li>
-                    <li><a href="">@bostjan_sebas</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#/biography">Biography</a></li>
+                    <li><a href="/#/articles">Articles</a></li>
+                    <li><a href="https://twitter.com/srbostjan" target="_blank">@bostjan_sebas</a></li>
                 </ul>
             </nav>
         <div>
