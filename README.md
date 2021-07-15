@@ -1,6 +1,10 @@
 # Sebastian Rivera's Personal Blog
-A single page application for personal blog
+
+<img src="https://i.ibb.co/99DkN2S/personal-blog.png"/>
 
 ## Technologies
--JAVASCRIPT
--SASS
+- HTML
+- Sass
+- Vanilla JavaScript
+## Author
+Sebastian Rivera
