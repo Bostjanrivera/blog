@@ -1,8 +1,10 @@
 import routes from '../server/routes';
 import Error404 from '../pages/Error404';
+
 const getHash = () => {
   const hash = location.hash.slice(1).toLocaleLowerCase().split('/')
-  if (hash[2]) {
+  const isArticle = hash[2]
+  if (isArticle) {
     return `${hash[1]}/${hash[2]}`
   } else if (hash[1]) {
     return location.hash.slice(1).toLocaleLowerCase().split('/')[1]
